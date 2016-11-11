@@ -16,19 +16,19 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
-  
+
 
   s.add_dependency "blogit", ">= 1.1.1"
-  s.add_dependency "epic-editor-rails"
+  #s.add_dependency "epic-editor-rails"
 
   s.add_development_dependency 'rails', '>= 4.2.0'
   s.add_development_dependency 'thor'
 
   # Debugging
   s.add_development_dependency "pry"
-  
+
   s.add_development_dependency "spring"
-  
+
   s.add_development_dependency "sass-rails"
   s.add_development_dependency "sass-globbing"
   s.add_development_dependency "autoprefixer-rails"
